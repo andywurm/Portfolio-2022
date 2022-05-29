@@ -55,6 +55,13 @@
 
 .nav-link{
   text-align: center;
+  color:white;
+}
+.nav-link:hover{
+  color: white;
+}
+.nav-link::focus{
+background-color: black;
 }
 
 .nav-item:hover{
@@ -71,7 +78,32 @@
     border-bottom: solid rgb(246, 158, 173) 2px;
 }
 
+.webText{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+
+.foot{
+  padding: 40px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.Accordion{
+  background-color: yellow;
+}
+
+.contactFoot{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 40px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
 *{
   background-color: rgb(255, 246, 247);
   font-family: 'Courier New', Courier, monospace;
+  color:rgb(129, 71, 71);
 }
+

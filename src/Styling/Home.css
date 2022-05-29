@@ -1,0 +1,29 @@
+.mePic{
+    float: right;
+    max-width: 25%;
+    max-height: 25%;
+    padding: 0 0 20px 20px;
+}
+
+.keepHome{
+    margin: auto;
+    width: 70%;
+    margin-top: 40px;
+}
+
+.homeBig{
+    font-size: 1.3em;
+}
+
+.homeText{
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+.ind{
+    text-indent: 2em;
+    margin-bottom: 30px;
+}

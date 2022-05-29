@@ -1,0 +1,26 @@
+.contactList{
+    text-align: left;
+    border: solid rgb(44, 40, 43) 2px;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    list-style: none;
+    line-height: 30px;
+    padding: 20px;
+    font-size: 1.1em;
+}
+
+.linkText{
+    color: #e56a8f;
+}
+
+.Headers{
+    position: relative;
+    top: 25%;
+}
+
+.keepContact{
+    position: relative;
+    top: 30%;
+    /* border: solid red 1px; */
+}
