@@ -1,7 +1,13 @@
 .mePic{
     float: right;
-    max-width: 25%;
-    max-height: 25%;
+    max-width: 30%;
+    max-height: 30%;
+    padding: 0 0 20px 20px;
+}
+.meExPic{
+    float: right;
+    max-width: 30%;
+    max-height: 30%;
     padding: 0 0 20px 20px;
 }
 
@@ -27,3 +33,22 @@
     text-indent: 2em;
     margin-bottom: 30px;
 }
+
+.caroContainer{
+    border: rgb(231, 115, 129) ;
+    border-style: inset;
+    width: 65%;
+    margin: auto;
+    color: transparent; 
+}
+
+.caroSpace{
+    padding: 50px;
+    margin: auto;
+}
+
+.carousel-item {
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+    }
