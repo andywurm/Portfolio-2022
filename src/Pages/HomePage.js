@@ -11,7 +11,7 @@ function HomePage(props) {
       <h3 className='webText homeHeader'> Welcome to My Website! </h3>
       <br />
 
-      <div className='caroContainer'>
+      <div className='caroContainer shadow'>
 
         <Carousel>
 

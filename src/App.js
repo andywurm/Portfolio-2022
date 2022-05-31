@@ -10,6 +10,7 @@ import {
   Routes,
   NavLink
 } from 'react-router-dom';
+import {useEffect} from 'react';
 
 import headerIMG from './IMG/webpic.png';
 
@@ -20,6 +21,11 @@ import ContactPage from './Pages/ContactPage';
 
 
 function Navigation() {
+
+  useEffect(() => {
+    document.title = "Andaiye Wurm"
+  }, []);
+
   return (
     <div>
 

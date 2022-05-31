@@ -9,7 +9,7 @@ function ContactPage(props) {
 
       <div className='keepContact'>
 
-        <ul className='contactList'>
+        <ul className='contactList shadow'>
           <li className='webText'>Email:<a className='linkText' href='mailto: andaiyewurm@gmail.com' target="_blank">andaiyewurm@gmail.com</a> </li>
           <li className='webText'>LinkedIn: <a className='linkText' href='https://www.linkedin.com/in/andaiye-wurm-5bb375209/' target="_blank">Andaiye Wurm</a></li>
           <li className='webText'>GitHub: <a className='linkText' href='https://github.com/andywurm' target="_blank">andywurm</a> </li>
