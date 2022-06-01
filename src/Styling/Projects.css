@@ -3,7 +3,7 @@
     margin: auto;
     padding: 30;
     border-radius: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .AccText{
@@ -28,6 +28,10 @@
     border-radius: 5px;
     border-radius: 5px;
     border: solid 1.5px rgb(213, 123, 123);
+}
+
+.projectIMG:hover{
+    transform: scale(2);
 }
 
 .projSep{

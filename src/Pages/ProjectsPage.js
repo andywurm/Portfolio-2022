@@ -1,5 +1,9 @@
-import React from 'react';
+import { render } from '@testing-library/react';
+import React, { useState } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
+// import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
+
 import Drama1 from '../IMG/Drama1.png';
 import Drama2 from '../IMG/Drama2.png';
 import Drama3 from '../IMG/Drama3.png';
@@ -9,9 +13,17 @@ import HHub3 from '../IMG/HHub3.png';
 import hsj from '../IMG/hsj.png';
 import hsj2 from '../IMG/hsj2.png';
 import hsj3 from '../IMG/hsj3.png';
-
+//`../IMG/${nameIMG}$.png`
 
 function ProjectsPage(props) {
+
+  const [show, setShow] = useState(true);
+
+  function enlargeIMG(imageName) {
+
+  }
+
+
   return (
     <div>
 
@@ -23,8 +35,8 @@ function ProjectsPage(props) {
             <Accordion.Header><span className='AccText'>Drama Tracker</span></Accordion.Header>
             <Accordion.Body>
               <span className='projSep'><img src={Drama1} alt="Drama Tracker" className='projectIMG shadow' /></span>
-              <span className='projSep'><img src={Drama2} alt="Drama Tracker" className='projectIMG shadow' /></span>
-              <span className='projSep'><img src={Drama3} alt="Drama Tracker" className='projectIMG shadow' /></span>
+              <span className='projSep'><img src={Drama2} alt="Drama Tracker" className='projectIMG shadow' onClick={enlargeIMG} /></span>
+              <span className='projSep'><img src={Drama3} alt="Drama Tracker" className='projectIMG shadow' onClick={enlargeIMG} /></span>
               <p className='webText accDes'>
                 Tech Used: React, Bootstrap, HTML, CSS, JavaScript, Sequelize, Postgres, Node.js and Express.
                 <br /><br />
@@ -38,9 +50,10 @@ function ProjectsPage(props) {
           <Accordion.Item eventKey="1">
             <Accordion.Header><span className='AccText'>Hobbies Hub</span></Accordion.Header>
             <Accordion.Body>
-              <span className='projSep'><img src={HHub} alt="Hobbies Hub" className='projectIMG shadow' /></span>
-              <span className='projSep'><img src={HHub2} alt="Hobbies Hub" className='projectIMG shadow' /></span>
-              <span className='projSep'><img src={HHub3} alt="Hobbies Hub" className='projectIMG shadow' /></span>
+              <span className='projSep'><img src={HHub} alt="Hobbies Hub" className='projectIMG shadow' onClick={enlargeIMG}
+              /></span>
+              <span className='projSep'><img src={HHub2} alt="Hobbies Hub" className='projectIMG shadow' onClick={enlargeIMG} /></span>
+              <span className='projSep'><img src={HHub3} alt="Hobbies Hub" className='projectIMG shadow' onClick={enlargeIMG} /></span>
               <p className='webText accDes'>
                 Tech Used: React, Bootstrap, HTML, CSS, JavaScript, Postgres, Node.js and Express.
                 <br /><br />
@@ -51,9 +64,12 @@ function ProjectsPage(props) {
           <Accordion.Item eventKey="2">
             <Accordion.Header><span className='AccText'>Hey! Say! JUMP</span></Accordion.Header>
             <Accordion.Body>
-              <span className='projSep'><img src={hsj} alt="HeySayJump" className='projectIMG shadow' /></span>
-              <span className='projSep'><img src={hsj2} alt="HeySayJump" className='projectIMG shadow' /></span>
-              <span className='projSep'><img src={hsj3} alt="HeySayJump" className='projectIMG shadow' /></span>
+              <span className='projSep'><img src={hsj} alt="HeySayJump" className='projectIMG shadow' onClick={enlargeIMG}
+              /></span>
+              <span className='projSep'><img src={hsj2} alt="HeySayJump" className='projectIMG shadow' onClick={enlargeIMG}
+              /></span>
+              <span className='projSep'><img src={hsj3} alt="HeySayJump" className='projectIMG shadow' onClick={enlargeIMG}
+              /></span>
               <p className='webText accDes'>
                 Tech Used: HTML, CSS and JavaScript.
                 <br /><br />
